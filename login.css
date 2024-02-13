@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    border: 1px solid black;
+    width: 350px;
+    height: 300px;
+    border-radius: 1.4em;
+    margin: 3em;
+}
+
+.form-group{
+    border: 1px solid red;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
