@@ -20,13 +20,13 @@ form {
     width: 692px;
     height: 700px;
     border-radius: 1.4em;
-    margin: 3em;
+    margin: 2em;
 }
 
 .form-group{
     padding-left: 2em;
     padding-right: 2em;
-    margin: 4em;
+    margin: 3em;
 }
 
 form input {
