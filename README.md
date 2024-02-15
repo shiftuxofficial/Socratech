@@ -1,2 +1,2 @@
 # Socratech
-A QnA platofrm for Developers with a better user Experience
+A QnA platoform for Developers with a better user Experience
