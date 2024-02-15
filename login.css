@@ -1,19 +1,52 @@
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background: linear-gradient(to right, black, grey);
+}
+
+.login-container {
+    background-color: #2c2c2c;
+    border: 2px solid lightblue;
+    margin: 100px;
 }
 
 form {
     border: 1px solid black;
-    width: 350px;
-    height: 300px;
+    width: 692px;
+    height: 650px;
     border-radius: 1.4em;
     margin: 3em;
 }
 
 .form-group{
-    border: 1px solid red;
-    margin-top: 2em;
-    margin-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 4em;
+}
+
+form input {
+    height: 75px;
+    width: 500px;
+}
+
+#checkbox {
+    width: 20px;
+    aspect-ratio: 1;
+}
+
+#remember {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+button {
+    color: black;
 }
