@@ -20,8 +20,8 @@ body {
 
 form {
     border: 0.1px solid rgba(54, 54, 54, 0);
-    width: 692px;
-    height: 650px;
+    width: 550px;
+    height: 600px;
     border-radius: 1.4em;
     margin: 3em;
 }
@@ -29,12 +29,12 @@ form {
 .form-group{
     width: 75%;
     margin: auto;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 input {
-    height: 60px;
-    width: 500px;
+    height: 50px;
+    width: 450px;
     border-radius: 1em;
 }
 
@@ -56,8 +56,7 @@ input {
 #login {
     color: black;
     height: 50px;
-    width: 500px;
-    margin: auto;
+    width: 450px;
     background-color: #FFC71C;
     border-radius: 1em;
 }
@@ -77,6 +76,7 @@ input {
 
 .social-options button {
     background-color: #FFC71C;
-    height: 60px;
+    height: 50px;
     width: 233px;
+    border-radius: 1.2em;
 }
