@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background: linear-gradient(to right, black, grey);
+}
+
+.signup-container {
+    background: radial-gradient(circle, grey,  #2c2c2c);
+    margin: 100px;
+}
+
+form {
+    border: 0.1px solid rgba(54, 54, 54, 0);
+    width: 550px;
+    height: 600px;
+    border-radius: 1.4em;
+    margin: 3em;
+}
+
+.form-group{
+    width: 75%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+form input {
+    height: 50px;
+    width: 400px;
+    border-radius: 1em;
+}
+
+button {
+    background-color: #FFC71C;
+    color:black;
+    height: 50px;
+    width: 400px;
+    border-radius: 1.3em;
+}
+.login-center{
+    text-align: center;
+}
+.social-options {
+    margin-top: 1em;
+    display: flex;
+    column-gap: 30px;
+}
+
+.social-options button {
+    background-color: #FFC71C;
+    height: 50px;
+    width: 233px;
+}
