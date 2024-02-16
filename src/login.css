@@ -1,0 +1,82 @@
+:root {
+    --left-margin: 7em;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background: linear-gradient(to right, black, grey);
+}
+
+.login-container {
+    background: radial-gradient(circle, grey,  #2c2c2c);
+    margin: 100px;
+}
+
+form {
+    border: 0.1px solid rgba(54, 54, 54, 0);
+    width: 550px;
+    height: 600px;
+    border-radius: 1.4em;
+    margin: 3em;
+}
+
+.form-group{
+    width: 75%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+input {
+    height: 50px;
+    width: 450px;
+    border-radius: 1em;
+}
+
+#checkbox {
+    width: 20px;
+    aspect-ratio: 1;
+}
+
+#remember {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: auto;
+    margin-top: 2em;
+    width: 75%;
+    margin-bottom: 2em;
+}
+
+#login {
+    color: black;
+    height: 50px;
+    width: 450px;
+    background-color: #FFC71C;
+    border-radius: 1em;
+}
+
+.login-center{
+    text-align: center;
+}
+.right-align{
+    text-align: right;
+}
+
+.social-options {
+    margin-top: 1em;
+    display: flex;
+    column-gap: 30px;
+}
+
+.social-options button {
+    background-color: #FFC71C;
+    height: 50px;
+    width: 233px;
+    border-radius: 1.2em;
+}
