@@ -52,6 +52,7 @@ button {
 
 .social-options button {
     background-color: #FFC71C;
+    color: black;
     height: 50px;
     width: 233px;
 }
