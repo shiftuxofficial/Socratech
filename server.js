@@ -1,4 +1,4 @@
-const {createApp}=require("./src/node")
+const {createApp}=require("./src/Node")
 const main=()=>{
     const app=createApp()
     const port=process.env.PORT||5500

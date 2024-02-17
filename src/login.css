@@ -28,15 +28,14 @@ form {
 
 .form-group{
     width: 75%;
-    margin:auto;
+    margin: auto;
     margin-top: 2em;
 }
 
 input {
     height: 50px;
-    width: 400px;
+    width: 450px;
     border-radius: 1em;
-    color: black;
 }
 
 #checkbox {
@@ -48,7 +47,7 @@ input {
     display: flex;
     align-items: center;
     height: 30px;
-    margin-left:4.5em;
+    margin: auto;
     margin-top: 2em;
     width: 75%;
     margin-bottom: 2em;
@@ -57,10 +56,9 @@ input {
 #login {
     color: black;
     height: 50px;
-    width: 400px;
+    width: 450px;
     background-color: #FFC71C;
     border-radius: 1em;
-    margin: auto;
 }
 
 .login-center{
@@ -81,5 +79,4 @@ input {
     height: 50px;
     width: 233px;
     border-radius: 1.2em;
-    color:black;
 }
