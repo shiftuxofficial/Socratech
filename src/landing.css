@@ -1,0 +1,35 @@
+
+body {
+    background: linear-gradient(to right, black, grey);
+}
+.header{
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header>a{
+    color: white;  
+}
+.about{
+    color:white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.header button {
+    background-color: #FFC71C;
+    height: 30px;
+    width: 100px;
+    border-radius: 1.2em;
+}
+a{
+    color: black;
+}
+div>button{
+    background-color: #FFC71C;
+    height: 40px;
+    width: 180px;
+    border-radius: 1.2em;
+    color:black;
+}
