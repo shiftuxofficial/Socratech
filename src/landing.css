@@ -1,35 +1,34 @@
-
 body {
     background: linear-gradient(to right, black, grey);
 }
 .header{
-    color: white;
     display:flex;
+    color: white;
     justify-content: space-between;
-    align-items: center;
+
 }
-.header>a{
-    color: white;  
-}
-.about{
+a{
     color:white;
-    text-align: center;
-    justify-content: center;
-    margin-top: 150px;
 }
 .header button {
     background-color: #FFC71C;
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 130px;
     border-radius: 1.2em;
 }
-a{
-    color: black;
+.about{
+    justify-content: center; 
+    color: white;
+    position: absolute;
+    top:50%;
+    text-align: center;
 }
-div>button{
+
+
+ button {
     background-color: #FFC71C;
     height: 40px;
-    width: 180px;
+    width: 150px;
+    color: black;
     border-radius: 1.2em;
-    color:black;
 }
