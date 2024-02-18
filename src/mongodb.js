@@ -25,19 +25,18 @@ const displayAll = () => {
     })
 }
 
-
-const insertUser = (user) => {
-    return client.connect()
-    .then(() => {
-        const db = client.db(dbName);
-        const collection = db.collection(collectionName);        
+// const insertUser = (user) => {
+//     return client.connect()
+//     .then(() => {
+//         const db = client.db(dbName);
+//         const collection = db.collection(collectionName);        
     
-        return collection.insertOne(user);
-    })
-    .then((result)=> {
-        console.log('User inserted successfully:', result);
-    })
-};
+//         return collection.insertOne(user);
+//     })
+//     .then((result)=> {
+//         console.log('User inserted successfully:', result);
+//     })
+// };
 
-module.exports={insertUser}
-// displayAll()
+// module.exports={insertUser}
+displayAll()
