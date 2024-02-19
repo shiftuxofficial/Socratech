@@ -36,6 +36,7 @@ input {
     height: 50px;
     width: 400px;
     border-radius: 1em;
+    content: black;
 }
 
 #checkbox {
