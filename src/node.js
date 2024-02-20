@@ -30,12 +30,17 @@ const signupSchema = new mongoose.Schema({
   password: {
     type: String,
     required: true
+  },
+  confpassword: {
+    type: String,
+    required: true
   }
 });
 
 // Signup model
-const Signup = mongoose.model('Socratech.signup', signupSchema);
+const Signup = mongoose.model('signups', signupSchema);
 
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
@@ -70,7 +75,7 @@ app.post("/signup", async (req, res) => {
     }
 
     // Create a new Signup document
-    const newSignup = new Signup({ email, username, password });
+    const newSignup = new Signup({ email, username, password, confpassword });
 
     // Save the new signup to the database
     const savedData = await newSignup.save();
@@ -82,6 +87,7 @@ app.post("/signup", async (req, res) => {
     res.status(500).send('Error saving data');
   }
 });
+
 
 app.get("/login", (req, res) => {
   const filepath = `${ROOT_DIR}/src/login.html`;
