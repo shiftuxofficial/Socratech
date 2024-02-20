@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <form class="login-container">
+    <form class="login-container" action="/login" method="POST">
         <div class="form-group">
             <!-- <label for="username">Username:</label> -->
             <input type="text" id="username" name="username" placeholder=" Username" class="field" required>
@@ -24,7 +24,7 @@
             <label for="rememberMe">Remember me:</label>
         </div>
         <div class="form-group" id="login">
-            <a href="explore.html"><button type="submit" id="login"> Login</button></a>
+            <button type="submit" id="login"> Login</button>
         </div>
         
         <div class="form-group login-center" >

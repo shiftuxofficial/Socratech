@@ -29,6 +29,7 @@ form {
 }
 
 form input {
+    color: black;
     height: 50px;
     width: 400px;
     border-radius: 1em;
