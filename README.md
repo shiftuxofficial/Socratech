@@ -5,6 +5,7 @@ Welcome to the Socratech project! This platform is designed to be a Q&A forum fo
 ## Table of Contents
 
 - [Features](#features)
+- [Prototype](#prototype)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
@@ -21,6 +22,12 @@ Welcome to the Socratech project! This platform is designed to be a Q&A forum fo
 ### Current Status
 
 The project is currently incomplete and in development. Contributions are welcome to help complete the functionality and improve the platform.
+
+## Prototype
+
+The figma file <a href="https://www.figma.com/proto/WNlYbT6roxMERr8L6Ekaje/Prototype?node-id=213-126&t=4YxswSX3VigjymiD-1&scaling=contain&content-scaling=fixed&page-id=213%3A44&starting-point-node-id=213%3A45">link</a> for this project.
+
+<img src="https://github.com/siddhanta-ray/Socratech/blob/main/src/socratech.PNG" alt="Basic Prototype for the Project">
 
 ## Installation
 
